@@ -1,0 +1,59 @@
+.navbar{
+    background-color: darkolivegreen;
+    margin: 0;
+   
+   
+}
+.navdiv li{
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 20px;
+
+}
+.navbar{
+    list-style-type: none;
+}
+.navbar li ul.dropdown li{
+display: block;
+}
+.navbar li ul.dropdown{
+    width: 100%;
+    background: darkcyan;
+    position: absolute;
+    display: none;
+    
+}
+.navbar li a:hover {
+    background:darkgray ;
+    
+}
+.navbar li:hover ul.dropdown{
+    display: block;
+   
+   
+}
+
+.navbar li{
+    display: inline-block;
+    position: relative;
+
+    
+}
+.outline{
+    border: 10px solid black;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+}
+.navbar li ul.dropdown li ul.dropdown{
+    width: 100%;
+    background: darkcyan;
+    position: absolute;
+    display: none;
+}
+.navbar li ul.dropdown li:hover ul.dropdown{
+    display: block;
+}
